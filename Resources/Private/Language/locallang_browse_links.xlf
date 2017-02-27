@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" product-name="linkhandler_plus" date="2017-02-27T20:24:41+01:00">
+        <header/>
+        <body>
+            <trans-unit id="tel">
+                <source>Telephone</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,29 @@
+{
+  "name": "monosize/linkhandler-plus",
+  "description": "Extended the Linkhandler to handle tel: url's",
+  "keywords": ["typo3", "linkhandler", "telephone"],
+  "homepage": "https://typo3.org/",
+  "type": "typo3-cms-extension",
+  "version": "0.1.0",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Frank Rakow",
+      "email": "frank.rakow@gmail.com"
+    }
+  ],
+  "require": {
+    "typo3/cms": "^8.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Monosize\\LinkHandler\\Plus": "Classes/"
+    }
+  },
+  "extra": {
+    "installer-name": "linkhandler_plus",
+    "typo3/cms": {
+      "extensionKey": "linkhandler_plus"
+    }
+  }
+}
