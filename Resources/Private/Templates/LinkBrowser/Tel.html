@@ -1,13 +1,15 @@
 <div class="link-browser-section link-browser-tab-content-tel">
-	<form action="" id="ltelform" class="form-horizontal">
-		<div class="form-group form-group-sm">
-			<label class="col-xs-4 control-label"><f:translate key="LLL:EXT:linkhandler_plus/Resources/Private/Language/locallang_browse_links.xlf:tel" /></label>
-			<div class="col-xs-6">
-				<input type="text" name="ltel" size="20" class="form-control" value="{tel}" />
+	<div class="element-browser-body">
+		<form action="" id="ltelform" class="form-horizontal">
+			<div class="form-group form-group-sm">
+				<label class="col-xs-4 control-label"><f:translate key="LLL:EXT:linkhandler_plus/Resources/Private/Language/locallang_browse_links.xlf:tel" /></label>
+				<div class="col-xs-6">
+					<input type="text" name="ltel" size="20" class="form-control" value="{tel}" />
+				</div>
+				<div class="col-xs-2">
+					<input class="btn btn-default" type="submit" value="{f:translate(key: 'LLL:EXT:lang/Resources/Private/Language/locallang_browse_links.xlf:setLink')}" />
+				</div>
 			</div>
-			<div class="col-xs-2">
-				<input class="btn btn-default" type="submit" value="{f:translate(key: 'LLL:EXT:lang/Resources/Private/Language/locallang_browse_links.xlf:setLink')}" />
-			</div>
-		</div>
-	</form>
+		</form>
+	</div>
 </div>
